@@ -2,12 +2,18 @@ INFO: [VRFC 10-163] Analyzing VHDL file "I:/vivado/vivado/lab2/comb_logic/comb_l
 INFO: [VRFC 10-307] analyzing entity AOI
 INFO: [VRFC 10-163] Analyzing VHDL file "I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity comb_logic
-ERROR: [VRFC 10-91] ina is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd:51]
-ERROR: [VRFC 10-283] actual of formal out port f cannot be an expression [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd:51]
-ERROR: [VRFC 10-91] inb is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd:52]
-ERROR: [VRFC 10-283] actual of formal out port f cannot be an expression [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd:52]
-ERROR: [VRFC 10-91] ina is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd:53]
-ERROR: [VRFC 10-2123] 0 definitions of operator "and" match here [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd:53]
-ERROR: [VRFC 10-2123] 0 definitions of operator "and" match here [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd:53]
-ERROR: [VRFC 10-1504] unit comb_logic ignored due to previous errors [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd:43]
-INFO: [VRFC 10-240] VHDL file I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sources_1/new/comb_logic.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comb_logic_TB
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:46]
+ERROR: [VRFC 10-283] actual of formal out port op cannot be an expression [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:46]
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:49]
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:50]
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:51]
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:52]
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:53]
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:54]
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:55]
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:56]
+ERROR: [VRFC 10-91] v is not declared [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:57]
+ERROR: [VRFC 10-1504] unit arch ignored due to previous errors [I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd:38]
+INFO: [VRFC 10-240] VHDL file I:/vivado/vivado/lab2/comb_logic/comb_logic.srcs/sim_1/new/comb_logic_TB.vhd ignored due to errors

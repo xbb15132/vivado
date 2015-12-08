@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: univeristy of strathcylde
--- Engineer: Jiahcneg Shi
+-- Engineer: Jiacheng Shi
 -- 
 -- Create Date: 2015/12/08 18:45:25
 -- Design Name: 
@@ -48,8 +48,8 @@ architecture comb_logic of comb_logic is
     signal intA,intB : std_logic;
 
 begin
-    G1 : AOI port map ( A => V, B => W, C => X, D => Y, F => inA );
-    G2 : AOI port map ( A => Y, B => X, C => V, D => Z, F => inB );
-    OP <= inA AND inB;    
+    G1 : AOI port map ( A => V, B => W, C => X, D => Y, F => intA );
+    G2 : AOI port map ( A => Y, B => X, C => V, D => Z, F => intB );
+    OP <= intA AND intB;    
 
 end comb_logic;
