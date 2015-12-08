@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../comb_logic.srcs/sources_1/imports/new/andorinvert.vhd"
+vhdl xil_defaultlib  "../../../comb_logic.srcs/sources_1/new/comb_logic.vhd"
+vhdl xil_defaultlib  "../../../comb_logic.srcs/sim_1/new/comb_logic_TB.vhd"
+
+# Do not sort compile order
+nosort
